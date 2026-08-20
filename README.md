@@ -20,7 +20,7 @@ https://docs.google.com/spreadsheets/d/12K3LJ1bvqJ6glCc1iR96nN_z-325oL4i0pIGiq2p
 
 ## 🛠️ Como Utilizar
 
-1. Copie o código contido no arquivo [`Codigo.gs`](./Codigo.gs).
+1. Copie o código contido no arquivo [`Codigo.gs`](./script.js).
 2. Na sua planilha do Google Sheets, acesse **Extensões** > **Apps Script**.
 3. Cole o código no editor.
 4. Insira seu `accessToken` de produção do Mercado Pago na variável `accessToken`.
