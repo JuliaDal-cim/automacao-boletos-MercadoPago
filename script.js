@@ -87,7 +87,7 @@ function gerarBoletosGerais() {
     let mesAtual = hoje.getMonth(); 
     
     // Retorna exatamente o último dia do mês atual
-    let ultimoDiaData = new Date(anoAtual, mesAtual + 1, 0);
+    let ultimoDiaData = new Date(anoAtual, mesAtual + 1, -1);
     
     // Formata a data no padrão ISO exigido pelo Mercado Pago (limite até às 23:59:59)
     let dataFormatada = Utilities.formatDate(ultimoDiaData, "GMT-3", "yyyy-MM-dd'T'23:59:59.000-03:00");
